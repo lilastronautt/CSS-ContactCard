@@ -1,0 +1,70 @@
+.main {
+  width: 35rem;
+  max-width: 90%;
+  background-color: rgb(51, 55, 70);
+  border-radius: 12px;
+  margin: 10rem auto;
+  color: white;
+  padding: 1.5rem 2rem;
+}
+
+.intro h1 {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.intro h5 {
+  text-align: center;
+  margin: 0.5rem 0 0 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.5rem 3rem;
+}
+
+.input-groups {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-groups label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.input-groups input {
+  width: 16rem;
+  padding: 0;
+  padding: 0.3rem;
+}
+
+.input-message {
+  margin-top: 0.5rem;
+}
+.input-message label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.input-message input {
+  width: 100%;
+  height: 7rem;
+  border: none;
+  padding: 0;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+.actions button {
+  background-color: rgb(89, 90, 94);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
